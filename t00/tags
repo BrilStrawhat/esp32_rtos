@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+EN_OLED	main/t07.c	/^#define EN_OLED /;"	d	file:
+I2C_ADDR	main/t07.c	/^#define I2C_ADDR /;"	d	file:
+I2C_PORT	main/t07.c	/^#define I2C_PORT /;"	d	file:
+I2C_SCL	main/t07.c	/^#define I2C_SCL /;"	d	file:
+I2C_SDA	main/t07.c	/^#define I2C_SDA /;"	d	file:
+LDR_GPIO	main/t07.c	/^#define LDR_GPIO /;"	d	file:
+NO_OF_SAMPLES	main/t07.c	/^#define NO_OF_SAMPLES /;"	d	file:
+OLED_power_on	components/sh1106/sh1106.c	/^void OLED_power_on(uint8_t en_oled) {$/;"	f	typeref:typename:void
+SH1106_DEFAULT_ADDR	components/sh1106/sh1106.h	/^#define SH1106_DEFAULT_ADDR /;"	d
+SH1106_DEFAULT_PORT	components/sh1106/sh1106.h	/^#define SH1106_DEFAULT_PORT /;"	d
+_SH1106_H_	components/sh1106/sh1106.h	/^#define _SH1106_H_$/;"	d
+__anon1ddc11c50108	components/sh1106/sh1106.h	/^typedef struct {$/;"	s
+addr	components/sh1106/sh1106.h	/^    uint8_t addr;                \/\/ I2C address$/;"	m	struct:__anon1ddc11c50108	typeref:typename:uint8_t
+app_main	main/t07.c	/^void app_main(void) {$/;"	f	typeref:typename:void
+atten	main/t07.c	/^static const adc_atten_t atten = ADC_ATTEN_DB_11;$/;"	v	typeref:typename:const adc_atten_t	file:
+change_brightness	main/t07.c	/^void change_brightness(void *display) {$/;"	f	typeref:typename:void
+clear_pages	components/sh1106/sh1106.h	/^    uint8_t clear_pages[8][128]; \/\/ For faster clrean of buffer$/;"	m	struct:__anon1ddc11c50108	typeref:typename:uint8_t[8][128]
+font6x8	components/sh1106/font6x8.h	/^static uint8_t font6x8[] =$/;"	v	typeref:typename:uint8_t[]
+i2c_address_scanner	components/sh1106/sh1106.c	/^bool i2c_address_scanner(uint8_t i2c_port, i2c_config_t i2c_conf) {$/;"	f	typeref:typename:bool
+init_i2c	main/t07.c	/^void init_i2c() {$/;"	f	typeref:typename:void
+pages	components/sh1106/sh1106.h	/^    uint8_t pages[8][128];       \/\/ page buffer$/;"	m	struct:__anon1ddc11c50108	typeref:typename:uint8_t[8][128]
+port	components/sh1106/sh1106.h	/^    i2c_port_t port;             \/\/ I2C interface port$/;"	m	struct:__anon1ddc11c50108	typeref:typename:i2c_port_t
+put_char_in_disply	components/sh1106/sh1106.c	/^static void put_char_in_disply(char chr, sh1106_t *display,$/;"	f	typeref:typename:void	file:
+sh1106_clear	components/sh1106/sh1106.c	/^void sh1106_clear(sh1106_t *display) {$/;"	f	typeref:typename:void
+sh1106_clear_OLED	components/sh1106/sh1106.c	/^void sh1106_clear_OLED(sh1106_t *display) {$/;"	f	typeref:typename:void
+sh1106_fill	components/sh1106/sh1106.c	/^void sh1106_fill(sh1106_t *display) {$/;"	f	typeref:typename:void
+sh1106_get	components/sh1106/sh1106.c	/^bool sh1106_get(sh1106_t *display, uint8_t x, uint8_t y) {$/;"	f	typeref:typename:bool
+sh1106_init	components/sh1106/sh1106.c	/^void sh1106_init(sh1106_t *display) {$/;"	f	typeref:typename:void
+sh1106_send_cmd	components/sh1106/sh1106.c	/^void sh1106_send_cmd(sh1106_t *display, uint8_t cmd_byte, uint8_t *next_byte) {$/;"	f	typeref:typename:void
+sh1106_set	components/sh1106/sh1106.c	/^void sh1106_set(sh1106_t *display, uint8_t x, uint8_t y, bool s) {$/;"	f	typeref:typename:void
+sh1106_str_in_display	components/sh1106/sh1106.c	/^void sh1106_str_in_display(sh1106_t *display, char *str) {$/;"	f	typeref:typename:void
+sh1106_t	components/sh1106/sh1106.h	/^} sh1106_t;$/;"	t	typeref:struct:__anon1ddc11c50108
+sh1106_update	components/sh1106/sh1106.c	/^void sh1106_update(sh1106_t *display) {$/;"	f	typeref:typename:void
+sh1106_write_page	components/sh1106/sh1106.c	/^void sh1106_write_page(sh1106_t *display, uint8_t page, bool buffer_type) {$/;"	f	typeref:typename:void
+width	main/t07.c	/^static const adc_bits_width_t width = ADC_WIDTH_BIT_9;$/;"	v	typeref:typename:const adc_bits_width_t	file:

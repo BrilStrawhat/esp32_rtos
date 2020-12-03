@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+BUF_SIZE	components/uart_console/uart_console.h	/^#define BUF_SIZE /;"	d
+CMD_SIZE	components/uart_console/uart_console.h	/^#define CMD_SIZE /;"	d
+DEL_SEQ	components/uart_console/uart_console.h	/^#define DEL_SEQ /;"	d
+DHT_DATA	components/dht11/dht11.h	/^#define DHT_DATA /;"	d
+DHT_DATA	dht11.h	/^#define DHT_DATA /;"	d
+DHT_POW	components/dht11/dht11.h	/^#define DHT_POW /;"	d
+DHT_POW	dht11.h	/^#define DHT_POW /;"	d
+Hello World Example	README.md	/^# Hello World Example$/;"	c
+LEFT_ARR	components/uart_console/uart_console.h	/^#define LEFT_ARR /;"	d
+LEFT_SEQ	components/uart_console/uart_console.h	/^#define LEFT_SEQ /;"	d
+NL_SEQ	components/uart_console/uart_console.h	/^#define NL_SEQ /;"	d
+RIGHT_ARR	components/uart_console/uart_console.h	/^#define RIGHT_ARR /;"	d
+RIGHT_SEQ	components/uart_console/uart_console.h	/^#define RIGHT_SEQ /;"	d
+TAG	components/uart_console/uart_console.c	/^static const char *TAG = "uart_events";$/;"	v	typeref:typename:const char *	file:
+UART_NUM	components/uart_console/uart_console.h	/^#define UART_NUM /;"	d
+UART_RX	components/uart_console/uart_console.h	/^#define UART_RX /;"	d
+UART_TX	components/uart_console/uart_console.h	/^#define UART_TX /;"	d
+_LIST_H_	components/list/list.h	/^#define _LIST_H_$/;"	d
+_UART_CONSOLE_H_	components/uart_console/uart_console.h	/^#define _UART_CONSOLE_H_$/;"	d
+__anon81cba4200108	main/t02.c	/^typedef struct {$/;"	s	file:
+add_cmd	components/uart_console/uart_console.c	/^void add_cmd(char *cmd_name, void *(*cmd_handler)(void *argc)) {$/;"	f	typeref:typename:void
+app_main	main/t02.c	/^void app_main(void) {$/;"	f	typeref:typename:void
+backspace	components/uart_console/uart_console.c	/^static void backspace(uint8_t *cursor, char *command) {$/;"	f	typeref:typename:void	file:
+check_response	components/dht11/dht11.c	/^static bool check_response() {$/;"	f	typeref:typename:bool	file:
+check_response	dht11.c	/^static bool check_response() {$/;"	f	typeref:typename:bool	file:
+clear_cmd_list	components/uart_console/uart_console.c	/^void clear_cmd_list() {$/;"	f	typeref:typename:void
+cmd_handler	components/uart_console/uart_console.h	/^    void *(*cmd_handler)(void *argc);$/;"	m	struct:s_console_cmd	typeref:typename:void * (*)(void * argc)
+cmd_list	components/uart_console/uart_console.c	/^static t_list *cmd_list = NULL;$/;"	v	typeref:typename:t_list *	file:
+cmd_name	components/uart_console/uart_console.h	/^    char *cmd_name;$/;"	m	struct:s_console_cmd	typeref:typename:char *
+console_task	components/uart_console/uart_console.c	/^static void console_task(void *pvParameters) {$/;"	f	typeref:typename:void	file:
+data	components/list/list.h	/^    void *data;$/;"	m	struct:s_list	typeref:typename:void *
+dht_init	components/dht11/dht11.c	/^esp_err_t dht_init() {$/;"	f	typeref:typename:esp_err_t
+dht_init	dht11.c	/^esp_err_t dht_init() {$/;"	f	typeref:typename:esp_err_t
+dht_send_start_sign	components/dht11/dht11.c	/^static esp_err_t dht_send_start_sign() {$/;"	f	typeref:typename:esp_err_t	file:
+dht_send_start_sign	dht11.c	/^static esp_err_t dht_send_start_sign() {$/;"	f	typeref:typename:esp_err_t	file:
+enter_button	components/uart_console/uart_console.c	/^static void enter_button(char *command) {$/;"	f	typeref:typename:void	file:
+exec_cmd_by_name	components/uart_console/uart_console.c	/^bool exec_cmd_by_name(t_list *cmd_list, char *name, char *args) {$/;"	f	typeref:typename:bool
+hmd	main/t02.c	/^    uint8_t hmd;$/;"	m	struct:__anon81cba4200108	typeref:typename:uint8_t	file:
+init_uart_console	components/uart_console/uart_console.c	/^void init_uart_console(uart_config_t *uart_config, uint8_t console_priority) {$/;"	f	typeref:typename:void
+move_arrow	components/uart_console/uart_console.c	/^static void move_arrow(uint8_t *cursor, char *command, uint32_t dtmp) {$/;"	f	typeref:typename:void	file:
+mx_create_node	components/list/list.c	/^t_list *mx_create_node(void *data) {$/;"	f	typeref:typename:t_list *
+mx_list_size	components/list/list.c	/^int mx_list_size(t_list *list) {$/;"	f	typeref:typename:int
+mx_pop_back	components/list/list.c	/^void mx_pop_back(t_list **head) {$/;"	f	typeref:typename:void
+mx_pop_front	components/list/list.c	/^void mx_pop_front(t_list **head) {$/;"	f	typeref:typename:void
+mx_push_back	components/list/list.c	/^void mx_push_back(t_list **list, void *data) {$/;"	f	typeref:typename:void
+mx_push_front	components/list/list.c	/^void mx_push_front(t_list **list, void *data) {$/;"	f	typeref:typename:void
+next	components/list/list.h	/^    struct s_list *next;$/;"	m	struct:s_list	typeref:struct:s_list *
+printchar	components/uart_console/uart_console.c	/^static void printchar(uint8_t *cursor, char *command, char *dtmp, uart_event_t *event) {$/;"	f	typeref:typename:void	file:
+put_char_under_cursor	components/uart_console/uart_console.c	/^static void put_char_under_cursor(uint8_t *cursor, char *command, char ch) {$/;"	f	typeref:typename:void	file:
+read_bit	components/dht11/dht11.c	/^static int read_bit() {$/;"	f	typeref:typename:int	file:
+read_bit	dht11.c	/^static int read_bit() {$/;"	f	typeref:typename:int	file:
+read_tmp_hmd	components/dht11/dht11.c	/^void read_tmp_hmd(uint8_t *temp, uint8_t *hmd) {$/;"	f	typeref:typename:void
+read_tmp_hmd	dht11.c	/^void read_tmp_hmd(uint8_t *temp, uint8_t *hmd) {$/;"	f	typeref:typename:void
+s_console_cmd	components/uart_console/uart_console.h	/^typedef struct s_console_cmd {$/;"	s
+s_list	components/list/list.h	/^typedef struct s_list {$/;"	s
+t02	CMakeLists.txt	/^project(t02)$/;"	p
+t_console_cmd	components/uart_console/uart_console.h	/^} t_console_cmd;$/;"	t	typeref:struct:s_console_cmd
+t_list	components/list/list.h	/^} t_list;$/;"	t	typeref:struct:s_list
+t_log_line	main/t02.c	/^} t_log_line;$/;"	t	typeref:typename:const struct __anon81cba4200108	file:
+temp	main/t02.c	/^    uint8_t temp;$/;"	m	struct:__anon81cba4200108	typeref:typename:uint8_t	file:
+timestemp	main/t02.c	/^    uint32_t timestemp;$/;"	m	struct:__anon81cba4200108	typeref:typename:uint32_t	file:
+uart0_queue	components/uart_console/uart_console.c	/^static QueueHandle_t uart0_queue;$/;"	v	typeref:typename:QueueHandle_t	file:
+uart_print_nl	components/uart_console/uart_console.c	/^void uart_print_nl() {$/;"	f	typeref:typename:void
+uart_printstr	components/uart_console/uart_console.c	/^void uart_printstr(char *str) {$/;"	f	typeref:typename:void
